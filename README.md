@@ -17,6 +17,7 @@ GP was used to conduct 5 different experiments in order to find loss functions a
 Both InceptionV3 and ResNet50 models were trained five times for each dataset. Obtained results were averaged for both models and compared to the averaged CE (with and without L2 regularization), focal and SCE losses for the same models. In the end, the percentage of accuracy improvement or decrease compared to CE was determined. A final value from the range [−0.5, 0.5] was considered as same performing, a value > +0.5% better performing and < −0.5% performing worse compared to CE.
 Results obtained for all evaluated loss functions used to train models from scratch are given in the table below.
 
+
 | Loss | Malaria    | Pcam    | Colorectal Histology    | CIFAR-10    | Fashion-MNIST   | CIFRA-100  | Caltech 101  | Mean  |
 | :---:   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | CE  | 94.0  | 69.4  | 88.9  | 92.8  | 94.0  | 68.2  | 72.5  | ±0  |
@@ -28,5 +29,6 @@ Results obtained for all evaluated loss functions used to train models from scra
 | f3  | -27.98  | +3.24  | -62.45  | -1.79  | -0.48  | -59.36  | -41.67  | -27.21  |
 | f4  | -0.21  | -0.13  | -1.98  | -0.14  | 0.00  | -0.32  | -6.49  | -1.32  |
 | f5 (NGL)  | -0.27  | +7.07  | +1.77  | +0.12  | +0.07  | +1.01  | +5.00  | +2.11  |
+
 
 More information regarding the parameter settings and results can be found in the paper.
