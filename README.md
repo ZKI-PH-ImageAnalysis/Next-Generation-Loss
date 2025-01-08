@@ -1,7 +1,7 @@
 # Next Generation Loss (NGL)
 This repository contains the code for the new loss function found by using the Genetic Programming (GP) approach. 
 
-The full paper can be downloded [here](https://arxiv.org/abs/2404.12948).
+The full paper can be downloded: [pre-print](https://arxiv.org/abs/2404.12948) or [paper](https://link.springer.com/chapter/10.1007/978-3-031-78128-5_22).
 
 ![grafik](https://github.com/ZKI-PH-ImageAnalysis/Next-Generation-Loss/assets/107623498/40df7cc8-01cf-495a-96d4-30fd04d4bcf5)
 
